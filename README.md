@@ -10,7 +10,7 @@ __________________________________________
 - Real-time responses and suggestions
 - Support for multiple interaction modes
 - Toast notifications for important updates
-- Status bar displaying current application state
+- Status bar displaying current application state.
 
 ### 2. Multiple Input Methods
 - **Guided Mode**: Step-by-step assistance
