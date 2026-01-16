@@ -20,7 +20,7 @@ class PDFBuilder:.
         if self.y_position - needed_height < self.min_y:
             self.canvas.showPage()
             self.y_position = self.height - self.margin
-        return self.y_position
+        return self.y_position 
 
     def draw_section_header(self, label):
         """Draw a section header."""
