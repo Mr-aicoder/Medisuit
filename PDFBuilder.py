@@ -15,7 +15,7 @@ class PDFBuilder:.
         self.min_y = self.margin
         self.section_gap = 0.25 * inch
 
-    def check_page_space(self, needed_height):
+    def check_page_space(self, needed_height): 
         """Check if there is enough space on the current page, otherwise create a new page"""
         if self.y_position - needed_height < self.min_y:
             self.canvas.showPage()
