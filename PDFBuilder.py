@@ -11,7 +11,7 @@ class PDFBuilder:.
         self.canvas = canvas.Canvas(filename, pagesize=letter)
         self.width, self.height = letter
         self.margin = inch
-        self.y_position = self.height - self.margin
+        self.y_position = self.height - self.margin 
         self.min_y = self.margin
         self.section_gap = 0.25 * inch
 
