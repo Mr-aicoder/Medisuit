@@ -3,7 +3,7 @@ from reportlab.pdfgen import canvas
 from reportlab.lib.units import inch
 from reportlab.lib import colors
 from reportlab.platypus import Table, TableStyle
-from datetime import datetime
+from datetime import datetime 
 
 class PDFBuilder:.
     def __init__(self, filename):
