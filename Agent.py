@@ -2,7 +2,7 @@ import os
 import json
 import re
 from reportlab.lib.units import inch 
-from reportlab.lib import colors
+from reportlab.lib import colors 
 from fuzzywuzzy import fuzz, process
 import pytesseract
 from pdf2image import convert_from_path
