@@ -5,7 +5,7 @@ from reportlab.lib import colors
 from reportlab.platypus import Table, TableStyle
 from datetime import datetime 
 
-class PDFBuilder:.
+class PDFBuilder: 
     def __init__(self, filename):
         self.filename = filename
         self.canvas = canvas.Canvas(filename, pagesize=letter)
