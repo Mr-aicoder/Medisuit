@@ -12,7 +12,7 @@ class PDFBuilder:.
         self.width, self.height = letter
         self.margin = inch
         self.y_position = self.height - self.margin  
-        self.min_y = self.margin
+        self.min_y = self.margin 
         self.section_gap = 0.25 * inch
 
     def check_page_space(self, needed_height):  
