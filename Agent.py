@@ -6,7 +6,7 @@ from reportlab.lib import colors
 from fuzzywuzzy import fuzz, process
 import pytesseract
 from pdf2image import convert_from_path
-from PIL import Image
+from PIL import Image 
 from PDFBuilder import PDFBuilder 
 from llm_interface import LLMInterface
 
