@@ -1,6 +1,6 @@
 import os
 import json 
-import re
+import re 
 from reportlab.lib.units import inch 
 from reportlab.lib import colors 
 from fuzzywuzzy import fuzz, process
