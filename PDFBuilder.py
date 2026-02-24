@@ -1,5 +1,5 @@
 from reportlab.lib.pagesizes import letter 
-from reportlab.pdfgen import canvas
+from reportlab.pdfgen import canvas 
 from reportlab.lib.units import inch
 from reportlab.lib import colors  
 from reportlab.platypus import Table, TableStyle
